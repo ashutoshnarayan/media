@@ -8,7 +8,7 @@ bash 'extract_php' do
   user 'root'
   cwd '/'
   code <<-EOH
-  wget <path to php 7.x>
+  wget https://prototype.php.net/distributions/php-7.2.11.tar.bz2
   tar xjf php-7.2.11.tar.bz2
   cd php-7.2.11
   ./configure
